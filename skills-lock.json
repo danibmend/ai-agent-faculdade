@@ -1,0 +1,671 @@
+{
+  "version": 1,
+  "skills": {
+    "agent-supply-chain-audit": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/agent-supply-chain-audit/SKILL.md",
+      "computedHash": "6ea13d3b2159f306a99789c141d6304a161cae1ab342d626bc3a5aa2d6034e25"
+    },
+    "agents-md": {
+      "source": "getsentry/skills",
+      "sourceType": "github",
+      "skillPath": "skills/agents-md/SKILL.md",
+      "computedHash": "cb8762f32057215819cd1fd213d4ad606b77daf06e0a7d15b9039a261481d5f3"
+    },
+    "ai-risk-management": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ai-risk-management/SKILL.md",
+      "computedHash": "584c1918fa718566200f3821a334e147457554447aa13704b82079332b6266c7"
+    },
+    "angular-developer": {
+      "source": "angular/skills",
+      "sourceType": "github",
+      "skillPath": "angular-developer/SKILL.md",
+      "computedHash": "b92225159ef7f1b48e2575e421ecce246c2d3201dcafe4285b85c9ebd5f2d76c"
+    },
+    "angular-new-app": {
+      "source": "angular/skills",
+      "sourceType": "github",
+      "skillPath": "angular-new-app/SKILL.md",
+      "computedHash": "d9f712544847ab80ef7ed20043820afd275c394ca05340c2f20a0f051e35d945"
+    },
+    "api-audit": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/api-audit/SKILL.md",
+      "computedHash": "116ee01fc0a93a52953b8a6f51d9be149ea3be39372e89fa73d100661c67a1cf"
+    },
+    "ask-matt": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/ask-matt/SKILL.md",
+      "computedHash": "9eead017d1708983aea08e98edc915defe7bf23719ac053ca98ab53dc518bd52"
+    },
+    "blog-writing-guide": {
+      "source": "getsentry/skills",
+      "sourceType": "github",
+      "skillPath": "skills/blog-writing-guide/SKILL.md",
+      "computedHash": "b9a6d5585a901191cd159575eea1a192285055fef17294975fbe42019cf060d3"
+    },
+    "brand-guidelines": {
+      "source": "getsentry/skills",
+      "sourceType": "github",
+      "skillPath": "skills/brand-guidelines/SKILL.md",
+      "computedHash": "e3dde75f975a9b17fe2ccffe4dde5c143e424000ac8fef12125dedb76026495c"
+    },
+    "breach-patterns": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/breach-patterns/SKILL.md",
+      "computedHash": "74359963bac6c1c0e4849d4a8877946c90ebba58efdf3aae63ac5fbbbcb8da82"
+    },
+    "browse-local-sentry": {
+      "source": "getsentry/skills",
+      "sourceType": "github",
+      "skillPath": "skills/browse-local-sentry/SKILL.md",
+      "computedHash": "346af739319fa7503b6644dfa0c11ff13ef7acd39e04b1e280535d460afb5179"
+    },
+    "business-logic-testing": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/business-logic-testing/SKILL.md",
+      "computedHash": "39830c47a42754899688e16661133080a03729f8a2f55ca299195e3d3346c9ab"
+    },
+    "chief-of-staff": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/in-progress/chief-of-staff/SKILL.md",
+      "computedHash": "4e46e888b6069dc9a21a0ee4b7748b96b5f14c4c2a4d587f0c5b85e02a88f085"
+    },
+    "cicd-security": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/cicd-security/SKILL.md",
+      "computedHash": "1a7af728020eb28c4a3a08478e1ce0d00563042c3da72490b2181df443d45698"
+    },
+    "claude-handoff": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/in-progress/claude-handoff/SKILL.md",
+      "computedHash": "7286edfcb9237c72b3bd96cdab1d6a515f529b25380923569924b96d2d265701"
+    },
+    "claude-settings-audit": {
+      "source": "getsentry/skills",
+      "sourceType": "github",
+      "skillPath": "skills/claude-settings-audit/SKILL.md",
+      "computedHash": "986fc9f82c8ee283f40e4191e4f0863be0a673d0c8d40c4f742f44e29d6be38c"
+    },
+    "cloud-audit": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/cloud-audit/SKILL.md",
+      "computedHash": "1ac2317a7de02dee3dce0c3910eb8517830f8453dd79b1171a1e68a8830188d8"
+    },
+    "code-review": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/code-review/SKILL.md",
+      "computedHash": "c2e0695f4d6bb9e1cc0b4c68d9965d062271cff387000fa59c1c2d31a18c25b8"
+    },
+    "code-simplifier": {
+      "source": "getsentry/skills",
+      "sourceType": "github",
+      "skillPath": "skills/code-simplifier/SKILL.md",
+      "computedHash": "2b379a3226c7223ca300845aec488d0ae7d6c8a24a78d234ca405fbeb9078ea6"
+    },
+    "codebase-design": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/codebase-design/SKILL.md",
+      "computedHash": "417e3ea96ab3fbe2b7a4279ce3e59202fb7106ad688c12f2d577c9219803de8d"
+    },
+    "commit": {
+      "source": "getsentry/skills",
+      "sourceType": "github",
+      "skillPath": "skills/commit/SKILL.md",
+      "computedHash": "2c2dd9fe4f122576242c2eee91df49c6d5275edf522a40b9320c68cc3fecf57e"
+    },
+    "container-audit": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/container-audit/SKILL.md",
+      "computedHash": "3d76c2f54df65e9bf0da619cb16618d0d46b2c12b2575e76e4b4182e1d7d3e13"
+    },
+    "control-audit": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/control-audit/SKILL.md",
+      "computedHash": "f659d0f9bdadcc267f316f58728e28dccf89da1e11da96cdf3d7fb4070f4d319"
+    },
+    "create-branch": {
+      "source": "getsentry/skills",
+      "sourceType": "github",
+      "skillPath": "skills/create-branch/SKILL.md",
+      "computedHash": "21c708d57ec608cc7a309aa93eb50e4f4d80c528277d74ace91b7e8c5b38ad2c"
+    },
+    "crypto-audit": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/crypto-audit/SKILL.md",
+      "computedHash": "607909d9641e97a102ab8a9c46b29089a5c623dcb1229ce18b2b4f896f426ad1"
+    },
+    "csf-mapping": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/csf-mapping/SKILL.md",
+      "computedHash": "0779b99d35565b3293a642b89100260e5d421a01620b8eeef8ecf5c33b2082d1"
+    },
+    "dependency-audit": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/dependency-audit/SKILL.md",
+      "computedHash": "0ed4ef2feb2e4d2c18585ed94d2a42bcea2b8c57f99a155de78dbdd7574e6407"
+    },
+    "diagnosing-bugs": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/diagnosing-bugs/SKILL.md",
+      "computedHash": "aec3686657177071076dc1586c22cdf95137c230bc74cbb5d069903d73804817"
+    },
+    "disk-forensics": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/disk-forensics/SKILL.md",
+      "computedHash": "776aac1be4f49620652b125fcfafa144d9d42fea3edd36ea892302ef8225ba77"
+    },
+    "django-access-review": {
+      "source": "getsentry/skills",
+      "sourceType": "github",
+      "skillPath": "skills/django-access-review/SKILL.md",
+      "computedHash": "19b654e16ed29b4aafba01bd8751b200ec11e640b034f10d3f28891724f840bb"
+    },
+    "django-perf-review": {
+      "source": "getsentry/skills",
+      "sourceType": "github",
+      "skillPath": "skills/django-perf-review/SKILL.md",
+      "computedHash": "de050725baf1fc197802182ab3c58c972633c04d307afddea56d99efc10238d6"
+    },
+    "doc-coauthoring": {
+      "source": "getsentry/skills",
+      "sourceType": "github",
+      "skillPath": "skills/doc-coauthoring/SKILL.md",
+      "computedHash": "6916eada9ead39b6625741ed4c91d94573639f5383085f5ca8529bd4a105e841"
+    },
+    "document-api-endpoint": {
+      "source": "getsentry/skills",
+      "sourceType": "github",
+      "skillPath": "skills/document-api-endpoint/SKILL.md",
+      "computedHash": "74ffa4b1547ceb912e03d854b31e862344c4d6590df43cd9a8415019b155bbcf"
+    },
+    "domain-modeling": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/domain-modeling/SKILL.md",
+      "computedHash": "f377a1341e1b368833cfe5889ace3e61d7df48d7a9e5da9253dba75d062bbfbc"
+    },
+    "find-bugs": {
+      "source": "getsentry/skills",
+      "sourceType": "github",
+      "skillPath": "skills/find-bugs/SKILL.md",
+      "computedHash": "58b6a1bdc071068e031e6bb7e48a3ece07ba427b117e3bd50858a62c217e397c"
+    },
+    "finding-triage": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/finding-triage/SKILL.md",
+      "computedHash": "602015e9d8c080df76a3eaf8ea8f82b59d462efe12c0f989683977a7bd6634b4"
+    },
+    "fuzzing-harness": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/fuzzing-harness/SKILL.md",
+      "computedHash": "a40645b855f3143714710c7393151fb73e2f3b041496bcc1490c80feec626a92"
+    },
+    "gh-review-requests": {
+      "source": "getsentry/skills",
+      "sourceType": "github",
+      "skillPath": "skills/gh-review-requests/SKILL.md",
+      "computedHash": "cc2efd8c3f2790dae4a0ef8af1b1a91fd74ce5dd9d0121c8e9531180645f52b1"
+    },
+    "gha-security-review": {
+      "source": "getsentry/skills",
+      "sourceType": "github",
+      "skillPath": "skills/gha-security-review/SKILL.md",
+      "computedHash": "f50c114c3b3b62aaf2d4cf6c75d7da6f27034609b6b876d0e5bffa87ff00b946"
+    },
+    "git-guardrails-claude-code": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/misc/git-guardrails-claude-code/SKILL.md",
+      "computedHash": "fa22f1aa2708d95cc3149640f33e085381b184a0322609930f7971c1dca11835"
+    },
+    "grill-me": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/productivity/grill-me/SKILL.md",
+      "computedHash": "5e0c683385eafd83f106ac6c9d67dfbbfe5aa4b3fe65aad114eb1055a99c818f"
+    },
+    "grill-with-docs": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/grill-with-docs/SKILL.md",
+      "computedHash": "a610223c9796f755b603f15ec114849a4b38b9ba3006acfa9bdf3cc56dd44dad"
+    },
+    "grilling": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/productivity/grilling/SKILL.md",
+      "computedHash": "a57d6b820c3b10700fd7de8ea1199bb0d42bc194df9f10baec4a6ed6a9686448"
+    },
+    "handoff": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/productivity/handoff/SKILL.md",
+      "computedHash": "00e2d31992d62490083ed2fa2fc2a4418362f765875a59e7a3dc52836f826ab2"
+    },
+    "hipaa-audit": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/hipaa-audit/SKILL.md",
+      "computedHash": "426eb1a1c6a0160ecca0c83a462825737fd82fce5bf1859bb6104c970ab352e3"
+    },
+    "iam-audit": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/iam-audit/SKILL.md",
+      "computedHash": "c662c347210d58e7dbb31ba66e07840d9f7fba382b2e717b4f7ee47cdcbd2eab"
+    },
+    "implement": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/implement/SKILL.md",
+      "computedHash": "141e77647388ad7d716a8f992b604872df0cbf6cdfbc8fa2a02cbc9fe67160fc"
+    },
+    "implement-spec": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/implement-spec/SKILL.md",
+      "computedHash": "b2f5c6fd6a1a9d025500db2350c30edd2673c3bd57d08396f104a2a592d4dffb"
+    },
+    "improve-codebase-architecture": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/improve-codebase-architecture/SKILL.md",
+      "computedHash": "11cfd9568d71445df710d5a9332c674ad773de0c9d5fc22d3ffa175bdd7d988b"
+    },
+    "incident-triage": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/incident-triage/SKILL.md",
+      "computedHash": "297e0a1165807fb9ddd8587fbd6e40382f31659888c8d0a5df0cad22d74b95c6"
+    },
+    "iterate-pr": {
+      "source": "getsentry/skills",
+      "sourceType": "github",
+      "skillPath": "skills/iterate-pr/SKILL.md",
+      "computedHash": "05aa787e2eece38ff852c2a49f4087dffff5fea158fd099152df14866f918067"
+    },
+    "log-watch": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/log-watch/SKILL.md",
+      "computedHash": "9819dd7e6ddfefa09c452aecee55db9265cb5ad68172e04930b4486ea9f4747b"
+    },
+    "loop-me": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/in-progress/loop-me/SKILL.md",
+      "computedHash": "d7fbcf41b5af203a6f2a7937afaaaebdd9941b0aa4cc3654b52daec01d3fb564"
+    },
+    "malware-triage": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/malware-triage/SKILL.md",
+      "computedHash": "76454a723725cb2863b38104747dbcfe5193d6e99dd42ecff92af56f0512d680"
+    },
+    "migrate-to-shoehorn": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/misc/migrate-to-shoehorn/SKILL.md",
+      "computedHash": "7d31e494a384d1a5b88d1dec6e1f50e673ef1a60f7b0b6e92babfbb242f79b62"
+    },
+    "mobile-audit": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/mobile-audit/SKILL.md",
+      "computedHash": "c8b22badf41f3ef51eb8415db97664b747c2a93677074f3e9b34a9caf3ace402"
+    },
+    "native-code-review": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/native-code-review/SKILL.md",
+      "computedHash": "bf8dfdc383df4b1608a3f39d6c96e0648c29a62efa69aeddf26bf9f936d779dd"
+    },
+    "osint-recon": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/osint-recon/SKILL.md",
+      "computedHash": "3170f4621522d6162d8be68993daaf00c4981f431b43c845c6862058d3dfde8c"
+    },
+    "owasp-audit": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/owasp-audit/SKILL.md",
+      "computedHash": "acb65e8b36ffa0a4bc9dc79536cb0b6b34a4cb693538fda2773ac262eb37ff2e"
+    },
+    "patch-sweep": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/patch-sweep/SKILL.md",
+      "computedHash": "580af5790cf37f72bd0c58b01112329d2277834e030fae72815cfe04cff9844b"
+    },
+    "pci-audit": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/pci-audit/SKILL.md",
+      "computedHash": "a93ba4b418661ddbe1e8a625104fb0de5f72dfafebbc80c8e37020002f20c45c"
+    },
+    "personal-opsec": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/personal-opsec/SKILL.md",
+      "computedHash": "2b8e4bae194b89f74ae035a225156edfeb64ed6503ce1222495c4130b8ecaed2"
+    },
+    "pr": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/pr/SKILL.md",
+      "computedHash": "e6e63bada1f038e0b5488f8b62f77ebbd36c97669ddc5afaffcd17f974709f9a"
+    },
+    "pr-link-issue": {
+      "source": "getsentry/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pr-link-issue/SKILL.md",
+      "computedHash": "97b4e3ee44171de9e6bd178c572eb700fc78b6d8fd1c24b91c822c91dad1dfe0"
+    },
+    "pr-screenshots": {
+      "source": "getsentry/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pr-screenshots/SKILL.md",
+      "computedHash": "6999046edfaedd27c21ee00726e388cdde30124860983b166f42de36c7d00453"
+    },
+    "pr-writer": {
+      "source": "getsentry/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pr-writer/SKILL.md",
+      "computedHash": "2128b6dec65d58a730efdce73228f724713258d44cedd610ffc2a020937cf12b"
+    },
+    "presentation-creator": {
+      "source": "getsentry/skills",
+      "sourceType": "github",
+      "skillPath": "skills/presentation-creator/SKILL.md",
+      "computedHash": "2d3051c45a29e1f40bdbbe706d1d2ce265e840e100e5fd96ca048ed359ba8e75"
+    },
+    "privacy-engineering": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/privacy-engineering/SKILL.md",
+      "computedHash": "b6ebf259e01a7f74a8e18421366e42dd88b7631a44903476a4c82d17a79218da"
+    },
+    "prompt-injection": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/prompt-injection/SKILL.md",
+      "computedHash": "c284f5b12e33fcb57de8c79bcbdeb0512d4e101c370ab9a7144a6ebf60151d17"
+    },
+    "prompt-optimizer": {
+      "source": "getsentry/skills",
+      "sourceType": "github",
+      "skillPath": "skills/prompt-optimizer/SKILL.md",
+      "computedHash": "4499dc4905ea8df581fa462c2c2675192de48a8808be5b89329c97a46927099c"
+    },
+    "prototype": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/prototype/SKILL.md",
+      "computedHash": "62979fe039ef64407b258f8824db41b9185f788638747df803032df4153c2aae"
+    },
+    "recon": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/recon/SKILL.md",
+      "computedHash": "92a57fd9781383844493e641e0d9ca22d1767679f03c4bbd05180325074c9e11"
+    },
+    "red-team-engagement": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/red-team-engagement/SKILL.md",
+      "computedHash": "f20e2022fb7a523413863cb7895a7e91f4225f9cc8ac5b0f76c15037b995b5b6"
+    },
+    "research": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/research/SKILL.md",
+      "computedHash": "c219850f3a5effcdf4180ca550e92a375fbc8b5b1ec999f68804c37351363018"
+    },
+    "retro": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/retro/SKILL.md",
+      "computedHash": "e63bb774fba4e601edfffc56bbd5c938d76c8faa2dff49456dff3b1e679cd3b6"
+    },
+    "scaffold-exercises": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/misc/scaffold-exercises/SKILL.md",
+      "computedHash": "0f8154a7be9fc5ebe6ae0550d520259fadfdd512c166cb7f137f8e697aae4017"
+    },
+    "scanner-pipeline": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/scanner-pipeline/SKILL.md",
+      "computedHash": "c6a7c034ff2de0227f73b426983e3527981317c81b0be3d6153f12bb89bc4006"
+    },
+    "secret-serialization": {
+      "source": "getsentry/skills",
+      "sourceType": "github",
+      "skillPath": "skills/secret-serialization/SKILL.md",
+      "computedHash": "f3f3bfdfdb1fd84ead484543093c04de2ff035e201f3954b02178fb753e63f49"
+    },
+    "secrets-audit": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/secrets-audit/SKILL.md",
+      "computedHash": "ce4a494d31e27657ed9ecc8e5717222d4dd5762d06dde80239967991df5fe231"
+    },
+    "security-comms": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/security-comms/SKILL.md",
+      "computedHash": "2828e93062294c02f443154294d700f5be0bed44e38e039ca85fb9fcb3c9240f"
+    },
+    "security-model": {
+      "source": "getsentry/skills",
+      "sourceType": "github",
+      "skillPath": "skills/security-model/SKILL.md",
+      "computedHash": "a6f47667bc5414a46471a006de4960d1c393c93547040af5f1e229fc7238e717"
+    },
+    "security-start": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/security-start/SKILL.md",
+      "computedHash": "6262b4da160bf4044bf86e255d58d4ebb7273fb3ca8d3347e2834836f6ea8be8"
+    },
+    "setup-matt-pocock-skills": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "computedHash": "a7107058cd22442215320bb4282a7d8623aeabc7fbf9817b560c5464f34efd51"
+    },
+    "setup-pre-commit": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/misc/setup-pre-commit/SKILL.md",
+      "computedHash": "4ae1ad6988eb61dbc600627bc12e061215d96ced504632d00f0d9de5905eadfa"
+    },
+    "setup-ts-deep-modules": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/in-progress/setup-ts-deep-modules/SKILL.md",
+      "computedHash": "0b0e7124ad1272d59e44bcb4224275e76421351294a91480ada62234158c1023"
+    },
+    "siem-detection": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/siem-detection/SKILL.md",
+      "computedHash": "e8f4d46b8a4d23b40d3e4d8dd7fccd634ff79ba63bd7165df591852e9be83547"
+    },
+    "skill-scanner": {
+      "source": "getsentry/skills",
+      "sourceType": "github",
+      "skillPath": "skills/skill-scanner/SKILL.md",
+      "computedHash": "3b914fc8201c7cf03b02610eb7dfda7b7384924b9aaa93adb9c366a3df516e05"
+    },
+    "skill-writer": {
+      "source": "getsentry/skills",
+      "sourceType": "github",
+      "skillPath": "skills/skill-writer/SKILL.md",
+      "computedHash": "a906c43d5fa29935fb17e7b59809696c967d9b2e519a3f04bc08cccee5f93184"
+    },
+    "soc-operations": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/soc-operations/SKILL.md",
+      "computedHash": "6ed9fe5366db8b95b4773b81531f61906ec13a1172f1a922401e614440421564"
+    },
+    "sred-project-organizer": {
+      "source": "getsentry/skills",
+      "sourceType": "github",
+      "skillPath": "skills/sred-project-organizer/SKILL.md",
+      "computedHash": "912f774660ece5d86f1b754e748e4c54a81e217c35408d688b186ab101dc632d"
+    },
+    "sred-work-summary": {
+      "source": "getsentry/skills",
+      "sourceType": "github",
+      "skillPath": "skills/sred-work-summary/SKILL.md",
+      "computedHash": "508ccdb1bd2050aec63b3c5cec15d17199d57d739ceb3b747f941abc9afa0688"
+    },
+    "tdd": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/tdd/SKILL.md",
+      "computedHash": "535d1a6f3bd5bded8971e7e4ea76538907cbff6b6d32c39cf97b669869dcd383"
+    },
+    "teach": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/productivity/teach/SKILL.md",
+      "computedHash": "6e029f9d1d5acdc2e79e745f86424c218180b7b4c6a7c660e32c4802db12d6cf"
+    },
+    "threat-hunting": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/threat-hunting/SKILL.md",
+      "computedHash": "3d8a9a190bc519fd10274e84da352af39a43803323c91cda7900d2cd3f9b4bfe"
+    },
+    "threat-modeling": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/threat-modeling/SKILL.md",
+      "computedHash": "9af43b4966e48f42396a86b5fd66c44446dbeeff065be2030809f0ae331f63f5"
+    },
+    "to-questionnaire": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/productivity/to-questionnaire/SKILL.md",
+      "computedHash": "e2cb00bfeb4243f1384bf7e106185ccb69fd7d45ff6a3b04bec4102f505aba31"
+    },
+    "to-spec": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/to-spec/SKILL.md",
+      "computedHash": "0ee8caf20fc7df94db53e76f42588fb01eee88c6f8dc97e7a3a0565be8978e74"
+    },
+    "to-tickets": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/to-tickets/SKILL.md",
+      "computedHash": "f7d1bca83f85e4880eec5ed4fe0bff5b8ad1ba14f1e0b17dd0f6d9235a461ec4"
+    },
+    "triage": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/triage/SKILL.md",
+      "computedHash": "453a7a098edcbec2a6ef67f8aa6720433672ebdf93023c90cefa79f160c72599"
+    },
+    "triage-frontend-issues": {
+      "source": "getsentry/skills",
+      "sourceType": "github",
+      "skillPath": "skills/triage-frontend-issues/SKILL.md",
+      "computedHash": "ecadb7f009d9a84ad34138a10a5a0efc7912089655b01859b5000234b94a8e7e"
+    },
+    "typing-exclusion-worker": {
+      "source": "getsentry/skills",
+      "sourceType": "github",
+      "skillPath": "skills/typing-exclusion-worker/SKILL.md",
+      "computedHash": "339f875284e6b957d3dbbfe2cbb98bc9fd6bbd6e4dafb14f452cde6750180fb2"
+    },
+    "variant-analysis": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/variant-analysis/SKILL.md",
+      "computedHash": "e815a6ddfa2707fcaddc84d941992878678a6c04e90631cf963cb2c6a27dcd7a"
+    },
+    "vuln-research": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/vuln-research/SKILL.md",
+      "computedHash": "85fa19a0ad3b90c54263678359272e9579f345b6d07c4383fb43aa33fcc95c07"
+    },
+    "wait-what": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/productivity/wait-what/SKILL.md",
+      "computedHash": "b4f3760a199cbd6415e4c885de230bef4eecba563791de211a92d335e16a9cb0"
+    },
+    "wayfinder": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/wayfinder/SKILL.md",
+      "computedHash": "4af8ec5362024e82017056169efdcb1bc7671d11a1d6e2a8a8aab997675426e0"
+    },
+    "web-pentest": {
+      "source": "briiirussell/cybersecurity-skills",
+      "sourceType": "github",
+      "skillPath": "skills/web-pentest/SKILL.md",
+      "computedHash": "b1c118b486464b336374bbb8727eaf887ffc39f66aa0f5006bf23c25af15a134"
+    },
+    "wizard": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/wizard/SKILL.md",
+      "computedHash": "c8fffad2f165f6c34e415ee291f9f8a9f1ef8cdea1b15b4f0034f615f49d8827"
+    },
+    "writing-beats": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/in-progress/writing-beats/SKILL.md",
+      "computedHash": "1d1c32479fa0774738c7baf264026e937f4a75ef7c20bd6c1b585681cadb523c"
+    },
+    "writing-for-agents": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/productivity/writing-for-agents/SKILL.md",
+      "computedHash": "831e996c177c6c5233eb3bb472a33edee2b3ce1ee5a6d7e8b696c1c3fb4eda3d"
+    },
+    "writing-fragments": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/in-progress/writing-fragments/SKILL.md",
+      "computedHash": "e97c829457cb9119aa6a636b989b3c3e273e55c9bcf27b6d281d8132e04ca972"
+    },
+    "writing-shape": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/in-progress/writing-shape/SKILL.md",
+      "computedHash": "175889218686932bda7724425b97a0a10a7679db51447c40a1a0d3a5e6f2130e"
+    }
+  }
+}

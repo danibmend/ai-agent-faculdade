@@ -1,0 +1,25 @@
+# =================================================================
+# = .gitlab-ci.yml do <projeto>-api — copiar pra raiz do repositório
+# =================================================================
+# Variáveis da tecnologia e por ambiente: template-ci/README.md e
+# template-ci/examples/dotnet. O template define o workflow — não declarar workflow: aqui.
+include:
+  - project: orchestration-ai/ai-pipeline/template-ci
+    file: /ci-template.yml
+    ref: v2.0.0
+
+variables:
+  APP_TECHNOLOGY: dotnet
+  DOTNET_SOLUTION: ""          # ex: MeuProjeto.slnx
+  DOTNET_APPS: ""              # ex: "api=src/MeuProjeto.Api/MeuProjeto.Api.csproj"
+  DOTNET_TESTS: ""
+  # EF_PROJECT / EF_STARTUP_PROJECT: liga as migrations
+  HEALTH_PATH: /health
+  # feature/* → verify-code-review (.code-review-ok.json) → MR automática pra dev.
+  # Exige GITLAB_TOKEN (project access token, escopo api) nas variáveis do projeto.
+  REVIEW_GATE_ENABLED: "true"
+  # Merge da MR na dev fecha a mãe e as filhas da fatia no workspace (template-ci/README.md, "Fechar a fatia").
+  # GITLAB_TOKEN precisa enxergar todos os projetos abaixo: group access token (api, Developer).
+  FECHAR_FATIA_ENABLED: "false"       # "true" depois de preencher as duas linhas abaixo
+  WORKSPACE_PROJECT: ""        # ex: grupo/projeto-workspace
+  SLICE_REPOS: ""              # ex: "grupo/projeto-api grupo/projeto-frontend"

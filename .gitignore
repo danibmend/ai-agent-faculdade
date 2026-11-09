@@ -1,0 +1,52 @@
+# Skills instaladas por comando (npx skills add / git clone) — não versionadas.
+# Ver docs/comandos-para-rodar.md, seção 8, e skills-lock.json (esse sim versionado).
+.claude/skills/*
+Claude outputs/*
+Claude outputs/
+Claude outputs
+
+# Workspace: cada componente é um repositório git próprio dentro desta pasta
+# (ver docs/agents/workspace.md). Componente novo → linha nova aqui.
+/*-api/
+/*-frontend/
+
+# Referências locais (telas e código de outros sistemas): nunca versionar.
+# O que virar referência do projeto (protótipo aprovado) vai pra docs/design/prototipos/.
+docs/referencias/
+
+# ============================================================
+# Proteção contra vazamento (bloco padrão do ecossistema)
+# ============================================================
+# Segredos e credenciais
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.jks
+*.crt
+id_rsa*
+id_ed25519*
+kubeconfig
+.kube/
+*credentials*
+*.secrets.json
+*secrets*.yaml
+*secrets*.yml
+*.tfstate
+*.tfstate.*
+
+# Config local do Claude Code / MCP com valores reais (não versionar)
+.claude/settings.local.json
+.claude/*.local.*
+.mcp.local.json
+
+# Dumps e bancos locais
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.bak
