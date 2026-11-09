@@ -1,6 +1,6 @@
 # Relatório de ambiente — ai-agent-faculdade
 
-Última atualização: 2026-11-08, rodada Etapa 2 (novo).
+Última atualização: 2026-11-09, rodada Etapa 2 (existente — recriação).
 
 ## O que foi feito
 
@@ -9,6 +9,14 @@
 - `impeccable` instalado (engine v0.1.19, `.claude/skills/impeccable`, agents em `.claude/agents`, hooks em `.claude/settings.local.json`).
 - Skills de segurança instaladas (getsentry/skills, briiirussell/cybersecurity-skills); skills base reaplicadas por cima. Sem colisão de nome (`code-review` = mattpocock). `disable-model-invocation: true` em todas, exceto nas peças internas (`code-review`, `codebase-design`, `domain-modeling`, `grilling`, `prototype`, `research`, `tdd`, `writing-for-agents`) e no `impeccable`.
 - Infra: projeto `aiagentfaculdade` (só Postgres) adicionado a `ai-infra/configs/infra/projects.json`; `apply` e `verify` verdes ("tudo conferido"), muros do Postgres provados.
+
+## Recriação
+
+- Data: 2026-11-09 · Base do template: ai-base@d8e5f2c (anterior: f9eb6510) · Origem: ai-base-atual · Layout: workspace (mantido; componentes `psiapoio-api` e `psiapoio-agent`, este último ignorado pelo `.gitignore` do workspace por ter repositório próprio)
+- Ambiente de IA: **adicionado** `.claude/commands/design-init.md` (conduz o início do design do frontend: confirma novo/existente, confere referências e ADRs, abre a sessão de design com o prompt montado; não chama scripts). Todo o resto do escopo (`docs/agents`, `docs/design`, `workflow.md`, hooks, agents, scripts, `CLAUDE.md`, `settings.json`) já era idêntico ao template.
+- Spec de adequação: **não criada** (decisão do humano: observabilidade fica como pendência, abaixo).
+- Dados antigos: não havia.
+- Smoke test (modo pago e free, 2026-11-09): `claude-pago` listou os subagentes (os 8 do processo + 4 do `impeccable`) e o OmniRoute registrou `deepseek/deepseek-v4-flash succeeded`; `claude-free` respondeu (`okok`) e o OmniRoute registrou `nvidia/nemotron-3-ultra-550b-a55b succeeded`. O campo de custo do JSON do `claude` não é confiável (modelo `omni-*`, `costBasis: unknown`). Pendente: confirmar `/imp` + Tab → `/implement-task` numa sessão interativa. Uso normal: `claude`, `claude-pago`, `claude-free` na raiz do workspace.
 
 ## Acessos
 
@@ -23,7 +31,11 @@ Contrato pronto para o app em `ai-infra/container/generated/projects/aiagentfacu
 - **Commit/push** (humano): este projeto (`git -C <pasta> ...`) e a alteração em `ai-infra/configs/infra/projects.json`.
 - **User-secrets do .NET**: ainda não há `.csproj`. Quando existir: `node infra-config.mjs secrets aiagentfaculdade --csproj=<caminho>` (em `ai-infra/configs/infra`). Sem `UserSecretsId`, antes rodar `dotnet user-secrets init --project <csproj>`.
 - **Python**: carregar `aiagentfaculdade.env` como variáveis de ambiente.
-- **Smoke-test**: não executado (exige confirmação à parte, pois o modo pago custa centavos).
+- **Smoke-test**: executado em 2026-11-09 (ver "Recriação").
+- **`ui-ux-pro-max-skill` não instalada** (o `design-init` depende dela): o classificador bloqueou o `npm install -g` de terceiro. Rodar na máquina e depois no projeto: `npm install -g ui-ux-pro-max-cli`, e em `C:\Users\danib\source\repos\faculdade\ai-agent`: `uipro init --ai claude`. Teste: `uipro --version` responde, o arquivo da skill existe em `.claude/skills/`, e `/skills` lista a skill.
+- **Observabilidade (pendência de código, sem spec por decisão do humano)**: `psiapoio-api` tem `/health` e `/health/ready`, mas não tem `/metrics` (`prometheus-net.AspNetCore`) nem log JSON/OTLP; `psiapoio-agent` só tem `/health`. Sem `metrics` no projeto `aiagentfaculdade` do manifesto. Quando o `/metrics` existir: acrescentar `"metrics": "host.docker.internal:<porta>"` e `apply`.
+- **`CONTEXT-MAP.md` ausente**: nasce no `/domain-modeling`, não foi inventado.
+- **Novo comando**: `/design-init [novo|existente]` — fundação de design do frontend, sem spec.
 - **Arquivos GitLab do template** (`issue-tracker.md`, `esteira-deploy.md`, `triage-labels.md`, `templates/*.gitlab-ci.yml`, `.mcp.json`, commands de esteira): mantidos; decisão de remover é do humano.
 - Antivírus: nenhum arquivo bloqueado reportado.
 - Confirmar `/skills` numa sessão Claude Code aberta nesta pasta (deve listar as skills base e `avoid-ai-design`).
